@@ -1,1 +1,1 @@
-This Repo contains all dart tasks ISA
+This Repo contains all Flutter course tasks ISA
