@@ -8,7 +8,7 @@ class BankAccount{
     }
   }
   void withdraw(double withdrawAmount){
-    if(withdrawAmount>0 && withdrawAmount>= _balance){
+    if(withdrawAmount>0 && withdrawAmount<= _balance){
       _balance-=withdrawAmount;
     }else{
       print("insufficient Credit");
